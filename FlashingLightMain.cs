@@ -5,7 +5,6 @@
 //Assignment #: 1
 //Program name: Flashing Red Stop Light
 
-
 //Hardcopy of source files: The sources files of this program are best printed using 7-point monospaced font in protrait orientation.
 //
 using System;

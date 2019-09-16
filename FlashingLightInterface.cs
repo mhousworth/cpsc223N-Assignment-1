@@ -5,7 +5,6 @@
 //Assignment #: 1
 //Program name: Flashing Red Stop Light
 
-
 using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -74,7 +73,7 @@ public class FlashingLightInterface: Form{
 		Invalidate();
 	}
 
-	//Draw "Control Panel" rectangle, and if the Flash is true/false don't/do draw a red circle
+	//Draw "Control Panel" rectangle, and if the Flash is true/false, don't/do draw a red circle
 	protected override void OnPaint(PaintEventArgs ee){
 			Graphics graph = ee.Graphics;
 			graph.FillRectangle(Brushes.Gold,0,600,1280,120);
